@@ -1,10 +1,10 @@
-# CallMeBot-Whatsapp-Signal
+# CallMeBot-Whatsapp-Signal ![callmebot.png](callmebot.png)
 Micropython / python rest api to send messages to Whatsap, Signal throught CallMeBot service (https://www.callmebot.com).
 
 ## source code:
 file [callmebot.py](callmebot.py)
 
-## Signal
+## Signal ![signal.png](signal.png)
 Simple library to send text messages to your signal number.
 
 ### requirements:
@@ -26,7 +26,7 @@ signal.send_image("IMAGE_URL")
 ```
 
 
-## Whatsapp
+## Whatsapp ![whatsapp.png](whatsapp.png)
 Simple library to send text messages to your whatsapp number.
 
 ### requirements:
