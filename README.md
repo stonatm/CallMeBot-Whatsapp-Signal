@@ -1,8 +1,16 @@
 # CallMeBot-Whatsapp-Signal
-Micropython / python lrest api to send messages to Whatsap, Signal throught CallMeBot service
+Micropython / python rest api to send messages to Whatsap, Signal throught CallMeBot service (https://www.callmebot.com).
+
+## source code:
+file [callmebot.py](callmebot.py)
 
 ## Signal
 Simple library to send text messages to your signal number.
+
+### requirements:
+Add the phone number **+34 603 21 25 97** into your Phone Contacts. (Name it it as you wish)
+Send this message "**I allow callmebot to send me messages**" to the new Contact created (using Signal Messaging of course)
+The bot will answer you with your personal apikey.
 
 ### usage:
 ```
@@ -20,6 +28,11 @@ signal.send_image("IMAGE_URL")
 
 ## Whatsapp
 Simple library to send text messages to your whatsapp number.
+
+### requirements:
+Add the phone number **+34 698 28 89 73** into your Phone Contacts. (Name it it as you wish)
+Send this message "**I allow callmebot to send me messages**" to the new Contact created (using WhatsApp of course)
+Wait until you receive the message "API Activated for your phone number. Your APIKEY is 123123" from the bot.
 
 ### usage:
 ```
